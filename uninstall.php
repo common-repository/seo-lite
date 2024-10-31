@@ -1,0 +1,1 @@
+<?php (defined('WP_UNINSTALL_PLUGIN') && delete_option('seo_lite_custom_tags')) || die;

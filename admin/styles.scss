@@ -1,0 +1,39 @@
+#seo-lite-custom-tags-table {
+   border-collapse: collapse;
+   border: 1px solid #858585;
+   td,
+   th {
+      padding: 10px;
+      label {
+         font-weight: 700;
+         margin-bottom: 5px;
+      }
+   }
+   thead {
+      background-color: #c7c7c7;
+      border-bottom: 1px solid #858585;
+   }
+   tfoot {
+      border-top: 1px solid #858585;
+   }
+
+   tbody {
+      tr:nth-child(even) {
+         background-color: #e2e2e2;
+      }
+   }
+
+   .mobile-only {
+      display: none;
+   }
+
+   @media screen and (max-width: 782px) {
+      .desktop-only {
+         display: none;
+      }
+      .mobile-only {
+         display: block;
+      }
+      width: 100%;
+   }
+}
